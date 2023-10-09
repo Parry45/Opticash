@@ -1282,8 +1282,14 @@
   left: 40%;
 }
 
-.image-23, .certik-box {
+.image-23 {
   display: none;
+}
+
+.certik-box {
+  width: 400px;
+  display: block;
+  position: absolute;
 }
 
 @media screen and (max-width: 991px) {
