@@ -753,7 +753,7 @@
 }
 
 .image-11 {
-  width: 251.007px;
+  width: 200px;
   position: absolute;
   top: auto;
   bottom: 1rem;
@@ -1297,6 +1297,10 @@
   position: absolute;
 }
 
+.image-24 {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .rl_menu-icon2_line-bottom-2 {
     width: 24px;
@@ -1546,6 +1550,10 @@
     left: auto;
     right: 5%;
   }
+
+  .image-24 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1682,6 +1690,10 @@
     flex-direction: column-reverse;
   }
 
+  .fees_image {
+    display: block;
+  }
+
   .fees_content {
     margin-bottom: 3rem;
   }
@@ -1816,6 +1828,10 @@
     top: 1rem;
     right: 1rem;
   }
+
+  .image-24 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1825,6 +1841,11 @@
 
   .header_component {
     grid-template-columns: 1fr;
+  }
+
+  .padding-section-large {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .wbs-cta-8-button {
@@ -1953,13 +1974,20 @@
   }
 
   .image-8 {
-    bottom: 58%;
+    width: 225px;
+    height: 25.5208px;
+    position: absolute;
+    top: 45%;
+    bottom: 0%;
+    left: -4%;
+    right: 0%;
   }
 
   .fees_image {
     width: 100%;
     height: auto;
     max-width: none;
+    display: none;
   }
 
   .fees_image-wrapper {
@@ -1971,6 +1999,19 @@
   .fees_content {
     max-width: none;
     margin-bottom: 2rem;
+  }
+
+  .fees_component {
+    align-items: stretch;
+  }
+
+  .image-11 {
+    width: 20%;
+    right: .5rem;
+  }
+
+  .image-12 {
+    left: .5rem;
   }
 
   .image-13 {
@@ -2070,6 +2111,12 @@
 
   .certik-box {
     width: 250px;
+  }
+
+  .image-24 {
+    width: 100%;
+    max-width: none;
+    display: block;
   }
 }
 
